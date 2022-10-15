@@ -1,8 +1,8 @@
 #include <stdio.h>
+
 /**
- *	main - print out sizes of data types in C
- *	code by Finney Osajere
- *	Description: 'To print sizes of data type'
+ *	main - 	Entry point
+ *
  *	return: Always 0 (Sucess)
  **/
 int main(void)
