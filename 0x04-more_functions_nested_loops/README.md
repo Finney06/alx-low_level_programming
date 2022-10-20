@@ -1,1 +1,0 @@
-who de check
