@@ -6,4 +6,14 @@
 **/
 int main(void)
 {
-	char letter;
+	char letter = 'a';
+
+	while (letter <= 'z')
+{
+	if (letter != 'e' && letter != 'e')
+	putchar(letter);
+	letter++;
+}
+	putchar('\n');
+	return (0);
+}
