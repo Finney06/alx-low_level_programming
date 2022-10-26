@@ -7,11 +7,14 @@
 **/
 int main(void)
 {
-	for(int x ='A'; x <='z'; x++)
+	char letter = 'a';
+
+	while( letter <= 'z' )
 {
-	x = tolower(x);
-	putchar(x);
+	putchar(letter);
+	letter++;
 }
 	putchar('\n');
 	return (0);
 }
+		
