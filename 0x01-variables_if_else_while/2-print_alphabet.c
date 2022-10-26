@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h> 
+#include <ctype.h>
 /**
 *	main - Entry Point
 *	Description: 'Task 3'
@@ -9,7 +9,7 @@ int main(void)
 {
 	char letter = 'a';
 
-	while( letter <= 'z' )
+	while (letter <= 'z')
 {
 	putchar(letter);
 	letter++;
@@ -17,4 +17,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-		
+
