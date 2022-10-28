@@ -1,18 +1,20 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - Prints the alphabet in lowercase.
- *
- * Return: Always 0.
- */
+*	main - Entry Point
+*	Description: 'Task 3'
+*	Return: Always 0 (Success)
+**/
 int main(void)
 {
-	char letter;
+	char letter = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
+	while (letter <= 'z')
+{
+	putchar(letter);
+	letter++;
+}
 	putchar('\n');
-
 	return (0);
 }
+
