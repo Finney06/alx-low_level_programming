@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*	main - print_alphabet
+*	print_alphabet - print_alphabet
 *	Description: 'task 2'
 *	Return: Always 0 (Success)
 **/
