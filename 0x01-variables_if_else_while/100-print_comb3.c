@@ -1,26 +1,31 @@
 #include <stdio.h>
 /**
-*	main -Entry Point
-*	Description: 'task 10'
+*	main - Entry Point
+*	Description: 'prints all possible different combinations of two digits'
 *	Return: Always 0 (Success)
 **/
 int main(void)
 {
-	int i;
-	int j;
+	int i = 0, j;
 
-	for (i = 0; i < 9; i++)
+while(i <= 8)
 {
-	for (j = i + 1; j  < 10; j++)
+	j = i + 1;
+while(j <= 9)
 {
-	putchar ((i % 10) + '0');
-	putchar ((j % 10) + '0');
-		if (i == 8 && j == 9)
-			break;
-	putchar (',');
-	putchar (' ');
+	putchar(i + '0');
+	putchar(j + '0');
+	if(i == 8 && j == 9)
+{
+	continue;
+	putchar(',');
+	putchar(' ');
 }
+	j++;
 }
-	putchar ('\n');
-	return (0);
+	i++;
 }
+putchar('\n');
+return(0);
+}
+
